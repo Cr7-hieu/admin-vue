@@ -1,63 +1,153 @@
 @import "bootstrap/scss/bootstrap";
+@import "theme/home";
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+header{
+    box-shadow: 0 5px 5px 0 rgba(48,68,78,.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
 }
 header .header-wrapper{
     padding: 25px 0;
     transition: .2s ease-in-out;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
 }
-.header-logo a{
+a{
     text-decoration: none;
 }
-header .header-wrapper .header-logo img{
-    max-height: 1.7rem;
+.logo img{
+    max-height: 1.7em;
     object-fit: contain;
     margin-right: auto;
 }
-header .header-wrapper nav{
+
+header .header-wrapper .this-list ul>li{
+    display: inline-block;
+    position: relative;
+}
+header .header-wrapper .this-list ul>li>a {
+    color: #111;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 1em;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    text-transform: uppercase;
+    position: relative;
+    padding: 8px 0;
+    overflow: hidden;
+    display: inline-block;
+}
+.is-menu{
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 5px 5px 0 rgba(48,68,78,.1);
+    transition: .2s ease-in-out;
+    padding: 30px 50px;
+}
+
+
+.center-line-title {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+.center-line-title h5 {
+    color: #111;
+    font-size: 1.125em;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-right: 1em;
+}
+footer .footer-content .footer-text p {
+    color: #444;
+    font-size: .9375em;
+    font-weight: 400;
+    line-height: 1.7333333333em;
+}
+footer .footer-content .footer-text .contact-method {
+    margin-top: 15px;
+}
+.post-card.-tiny {
+    display: flex;
+    margin-bottom: 0.9375em;
+}
+.post-card.-tiny .card-cover {
+    border-radius: 3px;
+    margin-right: 1.25em;
+    overflow: hidden;
+    height: 70px;
+    width: 105px;
+    flex: 1 1 30%;
+    max-width: 100px;
+    margin-bottom: 0;
+}
+.post-card.-tiny .card-content {
+    flex: 1 1 70%;
+    max-width: 70%;
+}
+.post-card.-tiny .card-content__category {
     display: none;
 }
-ul{
-    list-style: none;
+.post-card.-tiny .card-content__title {
+    font-size: 1em;
+    margin-bottom: 0.3125em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    
 }
-// header .header-wrapper nav ul>li:not(:last-child) {
-//     margin-right: 3.5714285714em;
-// }
-// header .header-wrapper nav ul>li {
-//     display: inline-block;
-//     position: relative;
-// }
-// header .header-wrapper nav ul>li>a {
-//     color: #111;
-//     font-size: 1em;
-//     font-weight: 600;
-//     text-decoration: none;
-//     line-height: 1em;
-//     cursor: pointer;
-//     transition: .2s ease-in-out;
-//     text-transform: uppercase;
-//     position: relative;
-//     padding: 8px 0;
-//     overflow: hidden;
-//     display: inline-block;
-// }
-// header .header-wrapper nav ul>li .dropdown-menu {
-//     position: absolute;
-//     transition: .2s ease-in-out;
-//     left: 0;
-//     padding: 30px 50px;
-//     background-color: #fff;
-//     box-shadow: 0 5px 5px 0 rgba(48,68,78,.1);
-//     opacity: 0;
-//     visibility: hidden;
-//     z-index: 10;
-// }   
+.post-card.-tiny .card-cover {
+    border-radius: 3px;
+    margin-right: 1.25em;
+    overflow: hidden;
+    height: 70px;
+    width: 105px;
+    flex: 1 1 30%;
+    max-width: 100px;
+    margin-bottom: 0;
+}
+.post-card.-tiny .card-cover img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.post-card .card-content__info {
+    display: flex;
+    align-items: center;
+}
+.post-card .card-content__info>div i {
+    color: #e49c86;
+    margin-right: 0.625em;
+    margin-bottom: 0.3125em;
+}
+.post-card .card-content__info>div p {
+    display: inline-block;
+    color: #888;
+    font-size: .8125em;
+    font-weight: 400;
+    line-height: 1;
+}
+footer .footer-content .footer-col.-util .tags-group {
+    margin-bottom: 1.25em;
+    margin-right: -0.9375em;
+}
+.is-social{
+    font-size: 14px;
+}
+footer .copyright {
+    padding: 1.5625em;
+    border-top: 1px solid #e1e1e1;
+    text-align: center;
+    color: #111;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.4285714286em;
+}
+
+
+
