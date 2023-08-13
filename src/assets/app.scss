@@ -1,6 +1,15 @@
 @import "bootstrap/scss/bootstrap";
 @import "theme/home";
+@import "theme/slide";
+@import "theme/blog";
+@import "theme/about";
+@import "theme/contact";
 
+
+
+a{
+    text-decoration: none;
+}
 header{
     box-shadow: 0 5px 5px 0 rgba(48,68,78,.1);
     position: fixed;
@@ -13,9 +22,7 @@ header .header-wrapper{
     padding: 25px 0;
     transition: .2s ease-in-out;
 }
-a{
-    text-decoration: none;
-}
+
 .logo img{
     max-height: 1.7em;
     object-fit: contain;
@@ -26,7 +33,7 @@ header .header-wrapper .this-list ul>li{
     display: inline-block;
     position: relative;
 }
-header .header-wrapper .this-list ul>li>a {
+header .header-wrapper .this-list ul>li {
     color: #111;
     font-size: 1em;
     font-weight: 600;
@@ -48,7 +55,6 @@ header .header-wrapper .this-list ul>li>a {
     padding: 30px 50px;
 }
 
-
 .center-line-title {
     font-size: 16px;
     display: flex;
@@ -63,6 +69,9 @@ header .header-wrapper .this-list ul>li>a {
     text-transform: uppercase;
     margin-right: 1em;
 }
+
+
+
 footer .footer-content .footer-text p {
     color: #444;
     font-size: .9375em;

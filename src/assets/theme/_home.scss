@@ -1,27 +1,62 @@
-.masonry-grid {
-    display: flex;
-    margin-left: -1.25em;
-    width: auto;
-}
-.masonry-grid_column {
-    padding-left: 1.25em;
-    background-clip: padding-box;
-}
-.masonry-grid_column>div {
-    margin-bottom: 1.25em;
-}
-.post-card {
-    font-size: 14px;
-}
-.post-card .card-cover {
-    display: flex;
-    margin-bottom: 1.25em;
-    border-radius: 0.3125em;
-    overflow: hidden;
-}
 .post-card .card-cover img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     transition: .2s ease-in-out;
+}
+
+.post-card .card-content{
+    text-align: center;
+}
+.post-card .category{
+    color: #111;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    margin-bottom: 1.25em;
+    padding: 0 0.3125em;
+}
+.post-card .content-title{
+    display: block;
+    margin-bottom: 0.625em;
+    color: #111;
+    font-size: 1.375em;
+    font-weight: 700;
+    line-height: 1.375em;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    text-transform: capitalize;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.post-card .content-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post-card .content-info>div i{
+    color: #e49c86;
+    margin-right: 0.625em;
+    margin-bottom: 0.3125em;
+}
+.post-card .content-info_item-author a {
+    color: #888;
+    font-size: .8125em;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    display: inline-block;
+}
+.post-card .content-info_item p{
+    display: inline-block;
+    color: #888;
+    font-size: .8125em;
+    font-weight: 400;
+    line-height: 1;
 }

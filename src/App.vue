@@ -2,7 +2,7 @@
   <div>
     <header>
       <nav class="navbar navbar-expand-lg header-wrapper">
-        <div class="container-fluid"> 
+        <div class="container"> 
           <a class="navbar-brand logo" href="#">
             <router-link to="/">
               <img src="../src/assets/images/logo.png" alt="logo" />
@@ -11,17 +11,11 @@
           <div class="collapse navbar-collapse this-list" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown">
-                <a
-                  class="nav-link active dropdown-toggle"
-                  aria-current="page"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                <router-link :to="{name:'home.content'}">
+              
+                <router-link :to="{name:'home.content'}"  class="nav-link active dropdown-toggle"  >
                   Home
                 </router-link>
-                </a>
+                
                 <ul class="dropdown-menu text-decoration-none is-menu">
                   <li>
                     <a href="">Homepage</a>
@@ -47,15 +41,12 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+                
+                <router-link :to="{name:'blogs.content'}" class="nav-link dropdown-toggle">
                   Blogs
-                </a>
+                </router-link>
+                
+                
                 <ul class="dropdown-menu is-menu">
                   <li>
                     <a href="">Blogs category gird</a>
@@ -81,15 +72,11 @@
                 </ul>
               </li>
               <li class="nav-item dropdown ">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Pages
-                </a>
+                
+                  <router-link :to="{name:'pages.content'}" class="nav-link dropdown-toggle">
+                    Pages
+                  </router-link>
+                
                 <ul class="dropdown-menu is-menu">
                   <li>
                     <a href="">Author</a>
@@ -115,12 +102,11 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link">
-                  <router-link :to="{name:'about.content'}">About</router-link>
-                </a>
+
+                  <router-link :to="{name:'about.content'}" class="nav-link">About</router-link>             
               </li>
               <li class="nav-item">
-                <a class="nav-link">Contact</a>
+                <router-link :to="{name:'contact.content'}" class="nav-link">Contact</router-link>
               </li>
             </ul>
             <form
@@ -174,7 +160,7 @@
       <router-view />
     </div>
     <footer>
-      <div class="container-fluid">
+      <div class="container">
         <div class="footer-content">
           <div class="row">
             <div class="col-12 col-md-6 col-lg-4">
@@ -316,7 +302,7 @@
                     <div class="center-line-title">
                       <h5>FOLLOW US</h5>
                     </div>
-                    <div spacing="10" class="sc-beqWaB cwkjOA social-block">
+                    <div spacing="10" class="social is-social social-block">
                       <a
                         class="btn -shape--circle -weight--regular -size--small -variant--contained -color--light sc-gueYoa kAQqKm"
                         href="https://www.facebook.com/"

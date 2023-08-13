@@ -1,0 +1,90 @@
+.instagrams {
+    font-size: 15px;
+}
+.slick-slider {
+    position: relative;
+    display: block;
+}
+.slick-slider .slick-list {
+    transform: translateZ(0);
+}
+.slick-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list {
+    position: relative;
+    display: block;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.slick-track:before {
+    display: table;
+    content: "";
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.instagrams .instagrams-container .instagrams-item {
+    position: relative;
+    display: block;
+}
+.instagrams .instagrams-container .instagrams-item img {
+    width: 100%;
+}
+.slick-slide img {
+    display: block;
+}
+.instagrams .instagrams-container .instagrams-item__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsla(14,64%,71%,.6);
+    opacity: 0;
+    transition: .2s ease-in-out;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1;
+}
+.instagrams .instagrams-container .instagrams-item__content i {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+.fa-instagram:before {
+    content: "\f16d";
+}
+
+.slick-track:after {
+    clear: both;
+}
+.slick-track:after {
+    display: table;
+    content: "";
+}
