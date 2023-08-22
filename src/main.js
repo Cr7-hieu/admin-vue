@@ -8,6 +8,7 @@ import 'bootstrap'
 import './assets/app.scss'
 const app = createApp(App)
 
+import 'swiper/css';
 app.use(createPinia())
 app.use(router)
 

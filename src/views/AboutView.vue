@@ -1,5 +1,17 @@
 <template>
-  <div class="container">
+  <div class="container distance">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <span class="breadcrumb-item-icon">
+            <i class="fa-solid fa-house-chimney"></i>
+          </span>
+        </li>
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">About</li>
+        
+      </ol>
+    </nav>
     <div class="about-us">
       <div class="row align-items-center">
         <div class="col-12 col-sm-8 col-md-6 mx-auto">
@@ -20,22 +32,22 @@
               <div class="follow">
                 <p>Follow us:</p>
                 <div spacing="10" class="sc-beqWaB cwkjOA social-block">
-                  <a class="btn -shape--circle -weight--regular -size--small -variant--contained -color--light sc-gueYoa kAQqKm" href="">
+                  <a class="btn " href="">
                     <span>
                       <i class="fab fa-facebook-f"></i>
                     </span>
                   </a>
-                  <a class="btn -shape--circle -weight--regular -size--small -variant--contained -color--light sc-gueYoa kAQqKm" href="">
+                  <a class="btn " href="">
                     <span>
                       <i class="fab fa-twitter"></i>
                     </span>
                   </a>
-                  <a class="btn -shape--circle -weight--regular -size--small -variant--contained -color--light sc-gueYoa kAQqKm" href="">
+                  <a class="btn " href="">
                     <span>
                       <i class="fab fa-instagram"></i>
                     </span>
                   </a>
-                  <a class="btn -shape--circle -weight--regular -size--small -variant--contained -color--light sc-gueYoa kAQqKm" href="">
+                  <a class="btn " href="">
                     <span>
                       <i class="fab fa-dribbble"></i>
                     </span>
@@ -57,18 +69,19 @@
               <form class="subcribe-bar__form">
                 <input type="text" name="email" placeholder="You email"  >
                 
-                <button type="submit" class="btn -shape--round -weight--bold -size--large -variant--contained -color--primary sc-brKeYL bkVdIk"  >
+                <button type="submit" class="btn btn-about"  >
                   <span>Subcribe</span>
                 </button>
               </form>
             </div>
           </div>
         </div>
-      </div>
+    </div>
+    <Slide></Slide>
   </div>
 </template>
 <script setup>
-
+import Slide from '../components/Slide.vue'
 
 </script>
 

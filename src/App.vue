@@ -114,32 +114,32 @@
               role="search"
             >
               <button
-                class="btn -weight--regular -size--regular -variant--link -color--primary header-icons__search header-icons__item"
+                class="btn "
               >
                 <span><i class="fa-solid fa-magnifying-glass"></i></span>
               </button>
 
               <div spacing="20" class="sc-beqWaB eqkiKY social-block">
                 <a
-                  class="btn -weight--regular -size--regular -variant--link -color--primary sc-gueYoa cRNJoD header-icons__item"
+                  class="btn -"
                   href=""
                 >
                   <span> <i class="fa-brands fa-facebook"></i></span>
                 </a>
 
                 <a
-                  class="btn -weight--regular -size--regular -variant--link -color--primary sc-gueYoa cRNJoD header-icons__item"
+                  class="btn"
                   href=""
                 >
                   <span><i class="fa-brands fa-twitter"></i></span>
                 </a>
                 <a
-                  class="btn -weight--regular -size--regular -variant--link -color--primary sc-gueYoa cRNJoD header-icons__item"
+                  class="btn "
                   href=""
                   ><span><i class="fa-brands fa-instagram"></i></span>
                 </a>
                 <a
-                  class="btn -weight--regular -size--regular -variant--link -color--primary sc-gueYoa cRNJoD header-icons__item"
+                  class="btn "
                   href=""
                 >
                   <span><i class="fa-brands fa-dribbble"></i></span>
@@ -193,7 +193,7 @@
                 <div class="center-line-title">
                   <h5>Feature posts</h5>
                 </div>
-                <div class="post-card -tiny">
+                <div class="post-card-tiny card-ai">
                   <a class="card-cover" href="/author/1">
                     <img
                       src="../src/assets/images/1.png"
@@ -201,20 +201,20 @@
                     />
                   </a>
                   <div class="card-content">
-                    <h5 class="card-content__category">Design</h5>
-                    <a class="card-content__title" href="/post/1"
+                    <h5 class="card-content-category">Design</h5>
+                    <a class="card-content-title" href="/post/1"
                       >Designers in Residence explores mental health in black
-                      British communities</a
-                    >
-                    <div class="card-content__info">
-                      <div class="info__time">
+                      British communities
+                    </a>                
+                    <div class="card-content-info">
+                      <div class="info-time">
                         <i class="far fa-clock"></i>
                         <p>02/11/2020</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="post-card -tiny">
+                <div class="post-card-tiny card-ai">
                   <a class="card-cover" href="/author/1">
                     <img
                       src="../src/assets/images/2.png"
@@ -222,32 +222,32 @@
                     />
                   </a>
                   <div class="card-content">
-                    <h5 class="card-content__category">Design</h5>
-                    <a class="card-content__title" href="/post/3"
+                    <h5 class="card-content-category">Design</h5>
+                    <a class="card-content-title" href="/post/3"
                       >Government seeks expressions of interest for design of
                       £5m obesity app</a
                     >
-                    <div class="card-content__info">
-                      <div class="info__time">
+                    <div class="card-content-info">
+                      <div class="info-time">
                         <i class="far fa-clock"></i>
                         <p>10/09/2020</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="post-card -tiny">
+                <div class="post-card-tiny card-ai">
                   <a class="card-cover" href="/author/1"
                     ><img
                       src="../src/assets/images/3.png"
                       alt="Motion Design Spotlight — Sam Burton"
                   /></a>
                   <div class="card-content">
-                    <h5 class="card-content__category">Design</h5>
-                    <a class="card-content__title" href="/post/5"
+                    <h5 class="card-content-category">Design</h5>
+                    <a class="card-content-title" href="/post/5"
                       >Motion Design Spotlight — Sam Burton</a
                     >
-                    <div class="card-content__info">
-                      <div class="info__time">
+                    <div class="card-content-info">
+                      <div class="info-time">
                         <i class="far fa-clock"></i>
                         <p>18/06/2020</p>
                       </div>
@@ -259,39 +259,24 @@
             <div class="col-12 col-md-12 col-lg-4">
               <div class="row">
                 <div class="col-12 col-md-6 col-lg-12">
-                  <div class="footer-col -util">
+                  <div class="footer-col until">
                     <div class="center-line-title">
                       <h5>Tag clouds</h5>
                     </div>
                     <div class="tags-group">
-                      <a
-                        class="btn -weight--light -size--small -variant--contained -color--light sc-dmqHEX evIEeF"
-                        href="/#"
-                      >
+                      <a  class="btn tags-fa" href="/#">
                         <span> Gutenews</span>
                       </a>
-                      <a
-                        class="btn -weight--light -size--small -variant--contained -color--light sc-dmqHEX evIEeF"
-                        href="/#"
-                      >
+                      <a  class="btn tags-fa"  href="/#">
                         <span>Life style</span>
                       </a>
-                      <a
-                        class="btn -weight--light -size--small -variant--contained -color--light sc-dmqHEX evIEeF"
-                        href="/#"
-                      >
+                      <a class="btn tags-fa"  href="/#">
                         <span>Fashion</span>
                       </a>
-                      <a
-                        class="btn -weight--light -size--small -variant--contained -color--light sc-dmqHEX evIEeF"
-                        href="/#"
-                      >
+                      <a class="btn tags-fa" href="/#">
                         <span>Food</span>
                       </a>
-                      <a
-                        class="btn -weight--light -size--small -variant--contained -color--light sc-dmqHEX evIEeF"
-                        href="/#"
-                      >
+                      <a class="btn tags-fa"  href="/#">
                         <span>Travel</span>
                       </a>
                     </div>
@@ -303,27 +288,25 @@
                       <h5>FOLLOW US</h5>
                     </div>
                     <div spacing="10" class="social is-social social-block">
-                      <a
-                        class="btn -shape--circle -weight--regular -size--small -variant--contained -color--light sc-gueYoa kAQqKm"
-                        href="https://www.facebook.com/"
-                      >
-                        <span><i class="fab fa-facebook-f"></i></span>
+                      <a  class="btn social-icon jqk" href="">
+                        <span>
+                          <i class="fab fa-facebook-f"></i>
+                        </span>
                       </a>
-                      <a
-                        class="btn -shape--circle -weight--regular -size--small -variant--contained -color--light sc-gueYoa kAQqKm"
-                        href="https://www.twitter.com/"
-                      >
-                        <span><i class="fab fa-twitter"></i></span>
+                      <a class="btn  social-icon jqk"  href="">
+                        <span>
+                          <i class="fab fa-twitter"></i>
+                        </span>
                       </a>
-                      <a
-                        class="btn -shape--circle -weight--regular -size--small -variant--contained -color--light sc-gueYoa kAQqKm"
-                        href="https://www.instagram.com/"
-                        ><span><i class="fab fa-instagram"></i></span></a
-                      ><a
-                        class="btn -shape--circle -weight--regular -size--small -variant--contained -color--light sc-gueYoa kAQqKm"
-                        href="https://www.dribbble.com/"
-                      >
-                        <span><i class="fab fa-dribbble"></i></span>
+                      <a class="btn  social-icon jqk"  href="">
+                        <span>
+                          <i class="fab fa-instagram"></i>
+                        </span>
+                        </a>
+                      <a class="btn  social-icon jqk" href="">
+                        <span>
+                          <i class="fab fa-dribbble"></i>
+                        </span>
                       </a>
                     </div>
                   </div>

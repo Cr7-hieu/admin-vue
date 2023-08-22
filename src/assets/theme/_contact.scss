@@ -24,6 +24,10 @@
     align-items: center;
     margin-bottom: 1.25em;
 }
+.contact-method__item p{
+    color: #111;
+    font-weight: 500;
+}
 .contact-us__info .contact-method__item i {
     height: 3.125em;
     width: 3.125em;
@@ -51,7 +55,6 @@
     width: 100%;
     font-family: inherit;
     transition: .2s ease-in-out;
-    
     padding: 1.0714285714em 1.4285714286em;
     color: #888;
     font-size: .875rem;
@@ -67,8 +70,6 @@
     transition: .2s ease-in-out;
     padding: 1.4285714286em;
     font-family: DM Sans,sans-serif!important;
-    
-    color: subTitle;
     font-size: 14px;
     font-weight: 400;
     line-height: auto;
@@ -77,4 +78,22 @@
 }
 textarea {
     resize: unset;
+    overflow: auto;
+    vertical-align: top;
+}
+.contact{
+    background-color: #e49c86;
+    color: #fff;
+    height: 3.125rem;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    border-radius: 0.3571428571em;
+}
+.contact span{
+    font-weight: 700;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
