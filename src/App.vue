@@ -111,15 +111,23 @@
             </ul>
             <form
               class="d-flex flex-row align-items-center justify-content-center"
-              role="search"
-            >
+              role="search">
               <button
-                class="btn "
-              >
+                class="btn " @click.prevent="search">           
                 <span><i class="fa-solid fa-magnifying-glass"></i></span>
               </button>
+              <div id="search-box" >
+                <div class="container">
+                  <form action="" method="POST">
+                    <input type="text" v-show="showSearch" placeholder="Searching for news">
+                    <button>
+                      <i class="fas fa-arrow-right"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
 
-              <div spacing="20" class="sc-beqWaB eqkiKY social-block">
+              <div spacing="20" class=" social-block">
                 <a
                   class="btn -"
                   href=""
@@ -146,7 +154,7 @@
                 </a>
               </div>
               <button
-                class="btn -weight--regular -size--regular -variant--link -color--primary header-icons__item header-icons__menu-controller"
+                class="btn"
               >
                 <span><font-awesome-icon icon="bars" /></span>
               </button>
@@ -324,3 +332,13 @@
     </footer>
   </div>
 </template>
+<script setup>
+import { ref } from 'vue';
+const showSearch = ref(false);
+
+    const search = () => {
+      showSearch.value = !showSearch.value;
+    };
+
+  
+</script>

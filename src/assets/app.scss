@@ -96,6 +96,49 @@ header .header-wrapper .this-list ul>li {
     margin-right: 1em;
 }
 
+#search-box {
+    font-size: 30px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 5px 5px 0 rgba(48,68,78,.1);
+    padding: 0.6666666667em 0;
+    z-index: 99;
+}
+#search-box form {
+    position: relative;
+}
+#search-box form input {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    height: 2.5em;
+    width: 100%;
+    font-family: inherit;
+    transition: .4s ease-in-out;
+    padding: 0.7142857143em 1.0714285714em 0.7142857143em 2.8571428571em;
+    color: #888;
+    font-size: .9333333333em;
+    font-weight: 500;
+    line-height: 2.5em;
+    border-radius: 0;
+}
+#search-box form button {
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aeaeae;
+    font-size: .9333333333em;
+    font-weight: 500;
+    line-height: 1;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    border: 0;
+    background-color: transparent;
+}
+
 
 
 
